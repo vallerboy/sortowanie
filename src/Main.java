@@ -22,12 +22,11 @@ public class Main {
         stringList.add("Ada");
         stringList.add("Filemon");
 
-        Collections.sort(personList, new CompareByName());
+        Collections.sort(personList, new CompareByLastname());
 
         for(Person person : personList) {
            System.out.println(person.toString());
         }
-
 
 
     }
