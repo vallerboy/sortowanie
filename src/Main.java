@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -20,10 +21,10 @@ public class Main {
         stringList.add("Ada");
         stringList.add("Filemon");
 
-        //Collections.sort(personList);
+        Collections.sort(personList);
 
         for(Person person : personList) {
-           System.out.println(person.getName());
+           System.out.println(person.toString());
         }
 
 
